@@ -1,0 +1,38 @@
+<h1> 웹 공부 </h1>
+
+진하게 표시하는 것 strong /strong
+<br> 밑줄 u /u
+<br> 줄 바꿈 div /div / br
+<br> 단락 바꾸기 p /p, p style="margin-top:45px;" 는 단락에서 위로 몇 px를 띄어할 것인지 결정
+<br> 앞에 표시 li /li, 부모클래스 격인 태그가 ul이 있다. ol를 한다면 숫자를 붙이지 않아도 자동으로 생성된다.
+<br> 하이퍼링크a helf /a
+<br> 제목 h3 /h3 1이 크고 6이 작음 1~6
+<br> 이미지 img src = "sexy.jpg" width="100%", 속성의 위치는 따로 중요하지 않고 속성을 추가함에 따라 달라진다
+<br> ctrl 를 하면 커서가 늘어남
+<br> 표를 작성할 때에는 table, tr, td 가 같이 다닌다.
+<br> title은 웹 페이지의 제목에 해당한다.
+<br> 일반적으로 한글은 제대로 저장되지 않는다. 저장한 방식과 맞게 해줘야한다. 이때에는 UTF-8이다. 바꿀때에는 meta를 써야한다.
+<br> 코드는 본문과 설명으로 나뉜다. 본문에는 body이다. 그리고 설명은 head이다. 그리고 그 위에가 html이고 이것을 나타내는 것이 !doctype html이다.
+<br> href 는 링크 걸기
+
+<h3> 실습 내용 </h3>
+
+<!doctype html>
+<html>
+  <head>
+    <title> WEB1 TEST </title>
+    <meta charset="utf-8">
+  </head>
+
+  <body>
+    <ol>
+      <h1><a href = "10.html"> 하이퍼링크 </a></h1>
+      <li><a href = "11.html"> 이미지 </a></li>
+      <li><a href = "12.html"> CSS </a></li>
+      <li><a href = "13.html"> JavaScript </a></li>
+    </ol>
+    <h2>HTML은 무엇인가?</h2>
+    <p><a href = "http://info.cern.ch/" target = "_blank" title = "html5 speicification">Hypertext Markup Language (HTML) is the standard markup language for <strong>creating <u>web</u> pages</strong> and web applications.Web browsers receive HTML documents from a web server or from local storage and render them into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.</a></p>
+    <p style="margin-top:45px;">HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects, such as interactive forms, may be embedded into the rendered page. It provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets. </p>
+  </body>
+</html>
